@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background: rgb(149, 102, 232);
+  background: linear-gradient(
+    180deg,
+    rgba(149, 102, 232, 1) 20%,
+    rgba(101, 101, 231, 1) 50%
+  );
+  font-size: 10px;
+  color: hsl(238, 29%, 16%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body,
+main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-wrapper {
+  background-image: url(/images/bg-pattern-desktop.svg);
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: 50rem;
+  width: 100rem;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  position: absolute;
+  left: -6rem;
+  z-index: 0;
+}
+
+.box {
+  position: absolute;
+  top: 26em;
+  left: 14rem;
+  z-index: 2;
+}
+
+.faq-articles-wrapper {
+  height: 100%;
+  font-size: 1.5rem;
+}
+
+.faq-title {
+  font-size: 3.5rem;
+  margin-top: 7rem;
+  margin-bottom: 3.5rem;
+}
+
+.articles1,
+.articles2,
+.articles3,
+.articles4,
+.articles5 {
+  width: 55ch;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.article-question-arrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-text1 {
+  display: var(--none1);
+}
+
+.article-text3 {
+  display: var(--none3);
+}
+
+.article-text4 {
+  display: var(--none4);
+}
+
+.article-text5 {
+  display: var(--none5);
+}
+
+.article-text2 {
+  display: var(--none2);
+}
+
+.arrow-img1 {
+  border: none;
+  cursor: pointer;
+  transform: rotate(var(--rotate1));
+}
+
+.arrow-img2 {
+  border: none;
+  cursor: pointer;
+  transform: rotate(var(--rotate2));
+}
+
+.arrow-img3 {
+  border: none;
+  cursor: pointer;
+  transform: rotate(var(--rotate3));
+}
+
+.arrow-img4 {
+  border: none;
+  cursor: pointer;
+  transform: rotate(var(--rotate4));
+}
+
+.arrow-img5 {
+  border: none;
+  cursor: pointer;
+  transform: rotate(var(--rotate5));
+}
+
+.article1-header {
+  font-weight: var(--font-style1);
+}
+
+.article2-header {
+  font-weight: var(--font-style2);
+}
+
+.article3-header {
+  font-weight: var(--font-style3);
+}
+
+.article4-header {
+  font-weight: var(--font-style4);
+}
+
+.article5-header {
+  font-weight: var(--font-style5);
+}
