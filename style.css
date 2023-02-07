@@ -21,44 +21,12 @@ body {
   );
 }
 
-.answer-wrapper1 {
-  display: var(--answer-visible1);
+.btn-arrow {
+  cursor: pointer;
 }
 
-.answer-wrapper2 {
-  display: var(--answer-visible2);
-}
-
-.answer-wrapper3 {
-  display: var(--answer-visible3);
-}
-
-.answer-wrapper4 {
-  display: var(--answer-visible4);
-}
-
-.answer-wrapper5 {
-  display: var(--answer-visible5);
-}
-
-.question1 {
-  font-weight: var(--question-bold1);
-}
-
-.question2 {
-  font-weight: var(--question-bold2);
-}
-
-.question3 {
-  font-weight: var(--question-bold3);
-}
-
-.question4 {
-  font-weight: var(--question-bold4);
-}
-
-.question5 {
-  font-weight: var(--question-bold5);
+.question {
+  font-weight: 800;
 }
 
 @media screen and (max-width: 576px) {
